@@ -23,9 +23,31 @@
 }
 
 h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #7B1A27;
+    font-size: 13vh;
+    text-shadow: 2px 3px 4px #ffffff;
 }
 
 #info {
     margin-top: 20vh;
+}
+
+#bottone {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #7B1A27;
+}
+
+#copyright {
+    color: #fff;
+    position: fixed;
+    bottom: 0;
 }
