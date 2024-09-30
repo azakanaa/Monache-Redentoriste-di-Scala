@@ -1,19 +1,17 @@
 <div id="background">
-    <div id="overlay"></div>
     <div id="contenuto">
-        <img src="../../../assets/img/logohead2-1.png" alt="Viva Memoria">
+        <img id="logoConScritta" src="../../../assets/img/logohead2-1.png" alt="Viva Memoria">
+        <img id="logo" src="../../../assets/img/favicon.png" alt="logo" />
         <div id="info" class="d-flex align-items-center justify-content-center">
             <h2>L'Amore è la Risposta !</h2>
         </div>
         <div class="d-flex justify-content-center">
-            <button id="bottone" class="btn" routerLink="home" routerLinkActive="active"
-                [routerLinkActiveOptions]="{exact: true}">
-                Scopri di più
-            </button>
+            <a id="bottone" class="btn" [routerLink]="['/home']">
+                <span>Scopri di più</span>
+            </a>
             <div id="copyright">
                 <p class="d-flex justify-content-center">© 2016 Redentoriste. All Rights Reserved</p>
             </div>
         </div>
     </div>
-
 </div>
